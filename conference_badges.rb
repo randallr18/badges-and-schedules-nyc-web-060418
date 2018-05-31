@@ -28,7 +28,7 @@ return room_assignments
 
 end
 
-def printer
+def printer(attendees)
   namecard = batch_badge_creator(names)
   rooms = assign_rooms(names)
   
