@@ -27,4 +27,7 @@ end
 return room_assignments
 
 end
+
+def printer
+  puts
   
