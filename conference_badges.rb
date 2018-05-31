@@ -34,4 +34,11 @@ def printer
   
   namecard.each do |x|
     puts x
+  end
+  
+  rooms.each do |y|
+    puts y
+  end
+  
+end
   
