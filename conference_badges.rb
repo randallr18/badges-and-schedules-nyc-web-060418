@@ -29,8 +29,8 @@ return room_assignments
 end
 
 def printer(attendees)
-  namecard = batch_badge_creator(names)
-  rooms = assign_rooms(names)
+  namecard = batch_badge_creator(attendees)
+  rooms = assign_rooms(attendees)
   
   namecard.each do |x|
     puts x
