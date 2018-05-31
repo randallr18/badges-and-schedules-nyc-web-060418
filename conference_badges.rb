@@ -5,7 +5,7 @@ def badge_maker(names)
     badge_messages.push("Hello, my name is #{x}")
   end
   
-  badge_messages
+  return badge_messages
 end
   
   
