@@ -20,7 +20,7 @@ def assign_rooms(names)
   counter = 0
   
   while counter < names.length
-  room_assignments.push("Hello, #{names[counter]}! You'll be assigned to room #{counter}!")
+  room_assignments.push("Hello, #{names[counter]}! You'll be assigned to room #{counter + 1}!")
   counter +=1
 end
 
