@@ -1,4 +1,4 @@
-def batch_badge_creator(names)
+def badge_maker(names)
   badge_messages = []
   
   array.each do |x|
